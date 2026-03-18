@@ -1,0 +1,20 @@
+# iOS
+ios/*.xcodeproj
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/icon_1024.png
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/gradle/wrapper/gradle-wrapper.jar
+android/murattel-release.keystore
+
+# General
+.DS_Store
+*.apk
+*.aab
+*.ipa

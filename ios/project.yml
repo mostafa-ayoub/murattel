@@ -1,0 +1,36 @@
+name: Murattel
+options:
+  bundleIdPrefix: com.murattel
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+targets:
+  Murattel:
+    type: application
+    platform: iOS
+    sources:
+      - Murattel
+    info:
+      path: Murattel/Info.plist
+      properties:
+        CFBundleDisplayName: "مرتّل"
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        UIBackgroundModes:
+          - audio
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: "Automatic"
+        DEVELOPMENT_TEAM: "PWGA98C2LW"
+        CODE_SIGN_IDENTITY: "Apple Development"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        PRODUCT_BUNDLE_IDENTIFIER: com.murattel.app
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
